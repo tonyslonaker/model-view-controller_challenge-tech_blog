@@ -1,0 +1,10 @@
+<article class="card m-3">
+    <div class="card-header d-flex flex-wrap align-items-center">
+        <span class="d-flex col-5"><h3>{{title}}</h3></span>
+        <span class="d-flex col-7 justify-content-end">Posted by {{user.username}} on {{format_date created_at}} at {{format_time created_at}}</span>
+    </div>
+    <div class="card-body text-body post-main" name="post-body">
+        {{post_body}}
+    </div>
+    <div class="card-footer"></div>
+</article>
