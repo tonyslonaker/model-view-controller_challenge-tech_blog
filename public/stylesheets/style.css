@@ -1,11 +1,11 @@
 :root {
-    --primary: #365194;
-    --secondary: #7587B4;
-    --tertiary: #253354;
-    --light: #F2F3F4;
+    --primary: #085f8d;
+    --secondary: #2957c9;
+    --tertiary: #5c606a;
+    --light: #f2f3f4a7;
 }
 * {
-    font-family: Arial;
+    font-family: Consolas;
     box-sizing: border-box;
     color: white;
 }
@@ -18,7 +18,7 @@ header {
 .page-content {
     height: 100%;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .form {
     max-width: 500px;
@@ -41,6 +41,6 @@ li {
 }
 .post-main,
 .comment-main {
-    padding: 0 16px;
+    padding: 0 18px;
     white-space: pre-wrap;
 }
