@@ -4,7 +4,6 @@
   
   [<img src="https://img.shields.io/static/v1?label=LICENSE&message=MIT&color=informational&style=for-the-badge" />
   ]
-  (https://choosealicense.com/)
   
   ## Table of Contents
   * [Description](#description)
