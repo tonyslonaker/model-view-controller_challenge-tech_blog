@@ -9,6 +9,11 @@
     box-sizing: border-box;
     
 }
+
+h1 {
+    color: black;
+}
+
 body {
     background-color: var(--light);
 }
