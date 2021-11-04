@@ -1,19 +1,20 @@
 :root {
-    --primary: #085f8d;
-    --secondary: #2957c9;
+    --primary: #0c9ac6;
+    --secondary: #0c9ac6;
     --tertiary: #5c606a;
     --light: #f2f3f4a7;
 }
 * {
     font-family: Consolas;
     box-sizing: border-box;
-    color: white;
+    
 }
 body {
     background-color: var(--light);
 }
 header {
     background-color: var(--primary);
+    color: white;
 }
 .page-content {
     height: 100%;
@@ -25,7 +26,11 @@ header {
     vertical-align: middle;
     margin: auto;
 }
-.card-header,
+.card-header {
+    background-color: var(--secondary);
+    color: white; 
+}
+
 .card-footer {
     background-color: var(--secondary);
 }

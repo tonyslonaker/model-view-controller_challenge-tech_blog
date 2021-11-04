@@ -24,18 +24,18 @@ User.init(
             type: DataTypes.STRING,
             allowNull: false
         },
-        email: {
+        /*email: {
             type: DataTypes.STRING,
             allowNull: false,
             validate: {
                 isEmail: true
             }
-        },
+        },*/
         password: {
             type: DataTypes.STRING,
             allowNull: false,
             validate: {
-                length: [8]
+                len: [8]
             }
         }
     },
